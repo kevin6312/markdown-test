@@ -15,7 +15,7 @@
 
 在這個範例中，有三個 git 的指令，分別是 init / add / commit；
 
-***init : ***
+***init :***
 * 這指令會在目前的目錄下 (即為工作目錄working directory的根目錄)，產生一個 ".git" 的子目錄，這個名為 ".git" 的子目錄，即為git 的容器(repository)。
 
 * 而技術上 ".git"的名稱是可以改的，只要在執行 init 前，宣告一個 GIT_DIR＝"你希望的名稱" 的環境變數即可。例如 "export GIT_DIR=.test" 。再執行 init ，便會產生一個名為 ".test"的子目錄為 git容器！
