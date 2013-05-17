@@ -23,7 +23,7 @@ _____
 除了這些，還有
 
 * 程式碼區塊：以一個tab或四個空格開始，結果會產生如下圖，一個區域。
-<code><p>        </p><code>
+<pre><code>我是程式碼區塊<code></pre>
 
 * 分格線：用三個或以上的星號、減號、底線來建立分隔線。
 
@@ -32,10 +32,18 @@ _____
 <pre><code> 如同我在[之前](http://cypress-soho.blogspot.tw/)所提到的... </code></pre>
 
 * 強調：在要__強調__的文字，在前後加入一或二個的星號或底線。
-<pre><code>
-*singleasterisks*
+<pre><code>*singleasterisks*
 _single underscores_
 **double asterisks**
 __double underscores__
 </code></pre>
+	結果為
+    *singleasterisks*
+    _single underscores_
+    **double asterisks**
+    __double underscores__
+
+* 坎入圖片：和連結有像，但差別在多了一個驚嘆號。
+<pre><code>![圖片的替代文字](http://localhost/cat.png)</code></pre>
+
 
