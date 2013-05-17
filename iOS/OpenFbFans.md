@@ -27,6 +27,7 @@ social graph 這個詞是2007由 facebook 所提出,其概念很簡單,每個人
 
 
 而另一種,無法在網址列上找到｡如下圖,是以關鍵字的方式顯示;那就需要 facebook另一個網址來查詢了,查詢網址格式為:"http://graph.facebook.com/{關鍵字}"｡頁面顯示便是profile 的內容,在內容中找尋一個名為 "id" 的字串,後面所帶出來的數字,便是 profile id｡
+
 ![透過facebook](http://2.bp.blogspot.com/-GayiutOPdlw/UXVqZmixWhI/AAAAAAAAAEI/7RRYr0zGaVU/s320/p2.jpg)
 
 
