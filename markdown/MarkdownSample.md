@@ -23,10 +23,19 @@ _____
 除了這些，還有
 
 * 程式碼區塊：以一個tab或四個空格開始，結果會產生如下圖，一個區域。
-<code></p></p><code>
+<code><p>        </p><code>
 
 * 分格線：用三個或以上的星號、減號、底線來建立分隔線。
 
+
 * 連結：在字串中，有個關𨧞字會連到指定的網址。以\[方括號\]標記，接著以括號填入綱址如下：
 <pre><code> 如同我在[之前](http://cypress-soho.blogspot.tw/)所提到的... </code></pre>
+
+* 強調：在要__強調__的文字，在前後加入一或二個的星號或底線。
+<pre><code>
+*singleasterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+</code></pre>
 
