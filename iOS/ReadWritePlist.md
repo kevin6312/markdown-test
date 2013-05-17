@@ -5,9 +5,8 @@
 依資料型態選擇不同，使用不同類別來開啟。
 
 
-* Array範例：
--------
-
+* ###Array範例:
+-----
     NSString *plistPath = [[[NSBundle mainBundle] bundle]
     stringByAppendingPathComponent:@"MyPlist.plist"];
     NSArray *plistArray = [NSArray arrayWithContentsOfFile: plistPath]; //讀取plist file
