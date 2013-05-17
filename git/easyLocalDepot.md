@@ -25,7 +25,7 @@
 ***add：***
 * 在工作目錄下，任何新增或修改過的檔案。要送交(commit)至容器前，一定要先註記為已完成階段性(staging)工作。故透過 add 指令，將註記新增或修改過的檔案，並加入已完成階段性檔案區域 (staging area)。(staging area僅是個邏輯的區域，並不會真的有個目錄作為staging area)
 
-*已放入 staging area的檔案，若有新的修改，即會被強迫脫離staging area，取消註記。需再透過 add 指令重新註記檔案。
+* 已放入 staging area的檔案，若有新的修改，即會被強迫脫離staging area，取消註記。需再透過 add 指令重新註記檔案。
 
 ***commit :***
 * 最後，透過 commit 指令，將目前的版本送交至容器。
