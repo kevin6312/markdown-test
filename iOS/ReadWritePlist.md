@@ -5,7 +5,8 @@
 依資料型態選擇不同，使用不同類別來開啟。
 
 
-* ###Array範例：
+* Array範例：
+-------
 
     NSString *plistPath = [[[NSBundle mainBundle] bundle]
     stringByAppendingPathComponent:@"MyPlist.plist"];
@@ -16,7 +17,8 @@
     float propertyFloat = [[plistArray objectAtIndex:2] floatValue];   //取得浮點數值
     [plistArray writeToFile:plistPath atomically:NO]; //回寫plist file
 
-* ###Dictionary範例：
+* Dictionary範例：
+----------------
 
     NSString *plistPath = [[[NSBundle mainBundle] bundle]
     stringByAppendingPathComponent:@"MyPlist.plist"];
@@ -27,6 +29,7 @@
     float propertyFloat = [[plistDic objectForKey:@"身高"]  floatValue];   //取得浮點數
     
     [plistDic writeToFile:plistPath atomically:NO]; //回寫plist file
+
 
 
 
