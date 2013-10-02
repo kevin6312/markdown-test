@@ -32,3 +32,33 @@ UITextField 若需要客製化功能，需要加入UITextFieldDelegate, 使用�
 //當 User 按 "換行"鈕， 則此函數會被呼叫；return NO 去忽略 換行 命令
 ``` 
 
+
+以下有我使用上幾個實例，
+
+#### 範例一
+
+我希望當使用者， `點 TextField 時，能跳出一個對話框、執行一個動畫、或一個選單`；這時候，我可以使用 UITextField Delegate
+
+```
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField
+```
+進一步，我要 TextField 的內容，皆選單或程式完成，不要使用者直接輸入；這時候，我在這個函數的最後回傳“NO”，即可。有點像將 `"User Interaction Disabled"`.
+
+#### 範例二
+
+這是滿常見的，在將 TextField 的英文，轉換成大寫 (Upper case string)
+
+```
+- (IBAction)textFieldValueChanged:(id)sender {
+    firstNameField.text = [firstNameField.text uppercaseString];
+}
+```
+
+RN:
+2013Oct2:新增 範例一﹠範例二
+
+
+
+
+
+
